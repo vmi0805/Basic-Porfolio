@@ -1,4 +1,6 @@
 
+/* Start the contact page */
+
 body{
   width:960px;
   background-color:rgba(128,128,128,0.22);
@@ -36,7 +38,7 @@ body{
 
 #main-bio{
   width: 550px;
-  height:625px;
+  height:500px;
   overflow: auto;
   background-color: orange;
   margin-top: 10px;
@@ -120,6 +122,36 @@ h3{
   width: 295px;
   padding: 20px;
 }
+
+/* Start the contact page */
+
+.connect-box{
+    width: 550px;
+    height:500px;
+    overflow: auto;
+    background-color: orange;
+    margin-top: 10px;
+    position:fixed;
+    float:right;
+}
+
+#fnmae{
+
+}
+
+#lname{
+
+}
+
+#msg{
+
+}
+
+#submit{
+  
+}
+
+
 
 .clearfix::after{
     content:"";

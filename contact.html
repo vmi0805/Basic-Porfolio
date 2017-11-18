@@ -4,33 +4,55 @@
 	<meta charset="UTF-8">
     <title>About Me</title>
     <link rel="stylesheet" type="text/css" href="reset.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="stylecontact.css">
 </head>
 <body>
 	<section id="name">Kyle Makinen</section>
 	<section id="btn-group">
-		<button>About Me</button>
+		<button type="button" onclick="window.location.href='index.html'"">About Me</button>
 		<button type="button" onclick="window.location.href='portfolio.html'">Portfolio</button>
-		<button type="button" onclick="window.location.href='contact.html'"">Contact</button>
+		<button>Contact</button> 
 	</section>
 
 	<div class="main">
-		<section id="connect-box">Connect with me
-			<div class="connect-title">
-				<a href="https://www.linkedin.com/in/kyle-makinen-92399557/">
-  					<img src="linkedin.png" alt="LinkedIn" style="width:75px;height:75px;border:0;margin:10px">
-				</a>
-			</div>
+		<div>
+			<section id="connect-box">Connect with me
+				<div class="connect-title">
+					<a href="https://www.linkedin.com/in/kyle-makinen-92399557/">
+							<img src="linkedin.png" alt="LinkedIn" style="width:75px;height:75px;border:0;margin:10px">
+					</a>
+				</div>
+			</section>
+		</div>
+			<section id="data-entry">
+				<h2>Contact</h2>
+				<form>
+					<label>
+						<span>Your first name</span><input id="fname" type="text" name="firstname" placeholder="First Name...">
+					</label>
 
-		</section>
-		<section id="main-bio">
-			<h2>About Me</h2>
-			<h3>Kyle Makinen</h3>
-			<img id="bio-image" src="kyle.jpg" alt="Kyle">
-			<p id="p01">"Yes, I am a pirate 200 years too late!  Kyle, a long-time Jimmy Buffett fan, can relate.  Kyle spent his years growing near the Chesapeake Bay, sailing, crabbing and spending hours on the beach. After graduating from college in 2004 from the Virginia Military Institute, Kyle joined the US Navy, serving for almost six years and, and crossing the entire world by water during his time of service.  Since leaving full-time sea duty, Kyle achieve a great feat in a mariner's resume: he learned to navigate by the stars and crossed a major sea by sail.  This feat required three and a half weeks of vacation from his new Manhattan consulting job, but he was determined nevertheless.  Since earning the Offshore Captain Certification from the American Sailing Association through completion of that long journey, Kyle has taken to the island of Manhattan to save for the next, skills testing trip.  Kyle has been left singing, "I got to stop wishing; I got to go fishing down to rock bottom again, just a few friends, just a few friends..."</p>
-		</section>
-		
-	</div>
+					<label>
+						<span>Your last name</span><input id="lname" type="text" name="lastname" placeholder="Last Name...">
+					</label>
+
+					<label>
+						<span>Message</span><input id="msg" type="text" name="msg" placeholder="Send Kyle a message...">
+						<input type="button" id="submit" value="Submit Form"/>
+					</label>
+				</form>
+
+			</section>
+		</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
 
 
 </body>
