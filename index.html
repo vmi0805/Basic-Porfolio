@@ -1,17 +1,38 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-	<title>My first HTML</title>
+	<meta charset="UTF-8">
+    <title>About Me</title>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<h1>This is heading/header</h1>
-	<h2>This is heading/header</h2>
-	<h3>This is heading/header</h3>
+	<section id="name">Kyle Makinen</section>
+	<section id="btn-group">
+		<button>About Me</button>
+		<button type="button" onclick="window.location.href='portfolio.html'">Portfolio</button>
+		<button type="button" onclick="window.location.href='contact.html'"">Contact</button>
+	</section>
 
-	<p><strong>Test bold font.</strong> More font testing</p>
-	<p>More font testing</p>
-	<a href="https://google.com" target="_blank"></a>
-	<img src="https://www.thesun.co.uk/wp-content/uploads/2017/03/nintchdbpict000306226097.jpg?strip=all&w=960" alt="Bitcoin picture"/>
-	
+	<div class="main">
+		<section id="connect-box">Connect with me
+			<div class="connect-title">
+				<a href="https://www.linkedin.com/in/kyle-makinen-92399557/">
+  					<img src="linkedin.png" alt="LinkedIn" style="width:75px;height:75px;border:0;margin:10px">
+				</a>
+			</div>
+
+		</section>
+		<section id="main-bio">
+			<h2>About Me</h2>
+			<img id="bio-image" src="kyle.jpg" alt="Kyle">
+			<p id="p01">"Yes, I am a pirate 200 years too late!  Kyle, a long-time Jimmy Buffett fan, can relate.  Kyle spent his years growing near the Chesapeake Bay, sailing, crabbing and spending hours on the beach. After graduating from college in 2004 from the Virginia Military Institute, Kyle joined the US Navy, serving for almost six years and, and crossing the entire world by water during his time of service.  Since leaving full-time sea duty, Kyle achieve a great feat in a mariner's resume: he learned to navigate by the stars and crossed a major sea by sail.  This feat required three and a half weeks of vacation from his new Manhattan consulting job, but he was determined nevertheless.  Since earning the Offshore Captain Certification from the American Sailing Association through completion of that long journey, Kyle has taken to the island of Manhattan to save for the next, skills testing trip.  Kyle has been left singing, "I got to stop wishing; I got to go fishing down to rock bottom again, just a few friends, just a few friends..."</p>
+		</section>
+		
+	</div>
+
+
 </body>
 </html>
+
+
